@@ -1,0 +1,158 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .dashboard-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .stat-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stat-icon {
+    font-size: 2.5rem;
+    color: #28a745;
+  }
+  
+  .stat-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .stat-card p {
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .actions {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .btn-create-event {
+    padding: 15px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-create-event:hover {
+    background-color: #044a13;
+  }
+  
+  .btn-create-event svg {
+    margin-right: 8px;
+  }
+  
+  .upcoming-events {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upcoming-events h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .event-card {
+    width: 30%;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .event-card p {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .btn-view-event {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-view-event:hover {
+    background-color: #b3aa00;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-stats {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .stat-card {
+      width: 100%;
+    }
+  
+    .event-cards {
+      flex-direction: column;
+    }
+  
+    .event-card {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,63 @@
+/* EventDetails.css */
+.event-details-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .event-details-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-details-container p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-add-attendees {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .btn-add-attendees:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .btn-delete-event {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  .btn-delete-event:hover {
+    background-color: darkred;
+  }
+  
